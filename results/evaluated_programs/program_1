@@ -1,0 +1,37 @@
+{
+  "generate_answer": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "comments": "Good to have other Quantium people all taking about and working on and learning a new area that will be relevant to our work - defintiely felt like a fast way to learn practical skills. Only negative is the demand on working hours time.",
+        "rationale": "Comments: Good to have other Quantium people all taking about and working on and learning a new area that will be relevant to our work - defintiely felt like a fast way to learn practical skills. Only negative is the demand on working hours time.\n\nReasoning: Let's think step by step in order to **identify the dominant theme** in the feedback. The user highlights the **positive aspect** of learning practical skills relevant to their work. However, they also express a **concern about the time commitment**.  This suggests that the **time commitment** is the primary focus of the feedback.",
+        "themes": "**Time Commitment \/ Workload**"
+      },
+      {
+        "augmented": true,
+        "comments": "I feel like the team contributed too much time. The time commitment was not pre-signalled - usually hackathons only cost us a day, maybe 2.",
+        "rationale": "Comments: I feel like the team contributed too much time. The time commitment was not pre-signalled - usually hackathons only cost us a day, maybe 2.\n\nReasoning: Let's think step by step in order to **identify the theme**. We see the user is expressing concern about the **duration of the hackathon**. They mention that the time commitment was not clear beforehand and that they are used to shorter hackathons.",
+        "themes": "**Time Commitment \/ Workload**"
+      },
+      {
+        "augmented": true,
+        "comments": "Only pain points were around unclear requirements that had to be clarified (e.g. recordings, slides, etc.)",
+        "rationale": "Comments: Only pain points were around unclear requirements that had to be clarified (e.g. recordings, slides, etc.)\n\nReasoning: Let's think step by step in order to **identify the theme**. We see that the feedback focuses on the **lack of clarity in the instructions or expectations** for the hackathon. This directly relates to the **clarity of requirements**.",
+        "themes": "**Clarity of Requirements**"
+      },
+      {
+        "augmented": true,
+        "comments": "The standard of presentations were amazing and it was well executed ",
+        "rationale": "Comments: The standard of presentations were amazing and it was well executed\n\nReasoning: Let's think step by step in order to **identify the theme** of this feedback. The comment focuses on the quality and execution of the presentations. This directly relates to the **Showcase \/ Presentation Format**.",
+        "themes": "**Showcase \/ Presentation Format**"
+      }
+    ],
+    "signature_instructions": "Classify user feedback from hackathon to one single theme",
+    "signature_prefix": "Themes:",
+    "extended_signature_instructions": "## PROPOSED INSTRUCTION: \n\nTo understand user feedback from a hackathon and categorize it into a single theme, follow these steps.  Firstly, consider the feedback provided -  analyze it to identify its main focus. Examine which specific aspect of the hackathon is being highlighted: whether it's learning, technical resources, collaboration, presentation format, time management, communication effectiveness, or something else.  Then, select the *one*  theme that best captures the essence of this feedback from the list below: \n\n**Potential Themes:**\n\n* **Technical Learning Resources:** This includes discussions around utilizing new technical tools, expanding technical skills and knowledge, and accessing learning opportunities via the hackathon format.\n* **Clarity of Requirements:** Feedback pertaining to difficulties navigating project directions, uncertainties stemming from project goals and instructions. \n* **Time Commitment \/ Workload:** Concerns related to the amount of work needed to complete or effectively demonstrate the hackathon project within given timeline constraints. \n* **Showcase \/ Presentation Format:** Feedback on how the hackathon's process facilitated the demonstration of projects, and particularly any feedback on expectations surrounding the format and process for presenting project results.\n* **Communication and Information Sharing:** Any comments regarding the flow of information, the clarity and accessibility of communications regarding hackathon format, or concerns about communication with fellow participants or program organizers.  \n* **Team Formation and Dynamics:** Feedback that centers on experiences of working within project teams including challenges in effectively cooperating or collaborating to achieve goals.\n* **Relevance of Training Content:** Concerns regarding the content of pre-existing materials or training modules required to complete the hackathon challenge or address the learning aspect of the hackathon's program. \n* **Application to Business \/ Use Cases:** Feedback that focuses on the applicability of learned skills or the feasibility to put learnings into action within a company environment.\n* **Accessibility and Inclusion:** Concerns regarding the participation inclusiveness - inclusivity for participants of all genders and cultural backgrounds or those who may have physical limitations or who may be neurodivergent.\n* **Incentives and Recognition:** Feedback concerning the awarding system \/ or how feedback should be measured and how contributors will gain credit, acknowledgement, and compensation for their participation achievements. \n* **Post-Hackathon Follow-up:** Concerns about the connection from the hackathon event to a bigger vision \u2014 comments on how learned technologies, skills could be applied in other scenarios.\n* **Support from Leadership \/ Mentors:** Discussion on access to expertise and guidance relevant to the hackathon project or its focus technology \n           \nFinally,  choose the *single* theme that best reflects the key aspect of the feedback which the user aimed to express.",
+    "extended_signature_prefix": "Themes:"
+  }
+}

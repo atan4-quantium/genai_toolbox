@@ -1,0 +1,31 @@
+{
+  "generate_answer": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "comments": "It was definitely stressful leading up to the end of the 3 days but we were very proud of our contributions and what the technical expertise can build.",
+        "rationale": "Comments: It was definitely stressful leading up to the end of the 3 days but we were very proud of our contributions and what the technical expertise can build.\n\nReasoning: Let's think step by step in order to **produce the themes**. We can see that the comment focuses on the **intensity and time pressure** of the hackathon. The user acknowledges the stress but also expresses pride in their accomplishments, highlighting the **impact of the technical expertise**.",
+        "themes": "**Time Commitment \/ Workload**"
+      },
+      {
+        "comments": "Really great process and very well organised. Only difficulty was juggling the vast amount of Hackathon training and prep with everyday work tasks. I don't think you could have done the hackathon effectively without a good amount of prep so a greater understanding of this extra workload would be appreciated",
+        "answer": "Time Commitment \/ Workload"
+      },
+      {
+        "comments": "Only pain points were around unclear requirements that had to be clarified (e.g. recordings, slides, etc.)",
+        "answer": "Clarity of Requirements"
+      },
+      {
+        "comments": "I felt that it was too focused on commercial viability \/ applicability instead of learning.",
+        "answer": "Application to Business \/ Use Cases"
+      }
+    ],
+    "signature_instructions": "Classify user feedback from hackathon to one single theme",
+    "signature_prefix": "Themes:",
+    "extended_signature_instructions": "## PROPOSED INSTRUCTION:\nYou are given user feedback on a hackathon. It could be anything from a detailed reflection on technical training, an observation about team dynamics, or a simple opinion on the event's relevance. Analyze the input and provide a step-by-step reasoning explaining why a certain theme from the list below is the most fitting: \n\n**Predefined themes:** \n\n    - Technical Learning Resources\n    - Clarity of Requirements\n    - Time Commitment \/ Workload\n    - Showcase \/ Presentation Format\n    - Communication and Information Sharing\n    - Team Formation and Dynamics\n    - Relevance of Training Content\n    - Application to Business \/ Use Cases\n    - Accessibility and Inclusion\n    - Incentives and Recognition\n    - Post-Hackathon Follow-up\n    - Support from Leadership \/ Mentors \n\nFinally, based on your reasoning, select **one** theme that best encapsulates the user's sentiment and feedback.",
+    "extended_signature_prefix": "Themes:"
+  }
+}

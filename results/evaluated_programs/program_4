@@ -1,0 +1,35 @@
+{
+  "generate_answer": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "comments": "Really great process and very well organised. Only difficulty was juggling the vast amount of Hackathon training and prep with everyday work tasks. I don't think you could have done the hackathon effectively without a good amount of prep so a greater understanding of this extra workload would be appreciated",
+        "rationale": "Comments: Really great process and very well organised. Only difficulty was juggling the vast amount of Hackathon training and prep with everyday work tasks. I don't think you could have done the hackathon effectively without a good amount of prep so a greater understanding of this extra workload would be appreciated\n\nReasoning: Let's think step by step in order to **identify the primary concern**. The feedback highlights the **difficulty in balancing hackathon preparation with regular work responsibilities**. This suggests the user is concerned about the **time commitment and workload** associated with the hackathon.",
+        "themes": "**Time Commitment \/ Workload**"
+      },
+      {
+        "augmented": true,
+        "comments": "It was a fun learning experience - very high energy\n\nDepending on the goals of the next hackathon, something to consider is to set aside a half day or similar for the next day so that we can do a stronger presentation.",
+        "rationale": "Comments: It was a fun learning experience - very high energy Depending on the goals of the next hackathon, something to consider is to set aside a half day or similar for the next day so that we can do a stronger presentation.\n\nReasoning: Let's think step by step in order to **produce the themes**. We see that the feedback focuses on the **presentation aspect** of the hackathon. The user mentions the need for more time for presentation preparation, suggesting a desire for a more polished and impactful showcase.",
+        "themes": "**Showcase \/ Presentation Format**"
+      },
+      {
+        "augmented": true,
+        "comments": "The standard of presentations were amazing and it was well executed ",
+        "rationale": "Comments: The standard of presentations were amazing and it was well executed\n\nReasoning: Let's think step by step in order to **identify the theme** of this feedback. The comment focuses on the quality and execution of the presentations. This directly relates to the **Showcase \/ Presentation Format**.",
+        "themes": "**Showcase \/ Presentation Format**"
+      },
+      {
+        "comments": "It was very hard to find meetings\/information about the hackathon at the start. All invites should have been sent to Q-all as optional so atleast we'd know if a meeting is happening. Similarly, I had no context about any of the otherwise meetings either until last 2 weeks of the hackathon which was quite late.\nSo I suppose just information could have been shared better.",
+        "answer": "Communication and Information Sharing"
+      }
+    ],
+    "signature_instructions": "Classify user feedback from hackathon to one single theme",
+    "signature_prefix": "Themes:",
+    "extended_signature_instructions": "## PROPOSED INSTRUCTION:\n\nAnalyze the provided user feedback from a hackathon and identify the single, most relevant theme that the feedback highlights. Focus on determining the overarching message of the feedback and select one theme from the following list: \n\n*   Technical Learning Resources\n*   Clarity of Requirements\n*   Time Commitment \/ Workload\n*   Showcase \/ Presentation Format\n*   Communication and Information Sharing\n*   Team Formation and Dynamics\n*   Relevance of Training Content\n*   Application to Business \/ Use Cases\n*   Accessibility and Inclusion\n*   Incentives and Recognition\n*   Post-Hackathon Follow-up\n*   Support from Leadership \/ Mentors\n\nProvide a brief explanation of your reasoning in a format like this: \n\n\"Reasoning: Let's think step by step in order to **identify the theme**. The comment directly mentions [keyword\/concept from user feedback], indicating the feedback relates to **[selected theme]**.",
+    "extended_signature_prefix": "Themes:"
+  }
+}

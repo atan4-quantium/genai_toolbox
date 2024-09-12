@@ -1,0 +1,31 @@
+{
+  "generate_answer": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "comments": "I personally didn't have the capacity to do any of the technical training, and my role in my hackathon team did not involve directly coding, but I nevertheless found the experience valuable in increasing my high level understanding of the technology and its limitations. I also heard from other team members who were more hands on that they learnt a huge amount through the process, hence my rating above. The only reason I didn't give it a higher score is because it was difficult to make the time around my day job, and I therefore had to catch up on work in my own time.",
+        "rationale": "Reasoning: Let's think step by step in order to **produce the themes**. We analyze the feedback to identify the core concern. The user acknowledges the value of the technical training and the learning experience, but highlights the difficulty in balancing the hackathon with their day job. This points to a challenge related to the time commitment and workload.",
+        "themes": "**Time Commitment \/ Workload**"
+      },
+      {
+        "comments": "fun, hands on L&D, professional development outside of normal project, feel re-energised about work",
+        "answer": "Accessibility and Inclusion"
+      },
+      {
+        "comments": "Great event, loads of learning, time commitment required",
+        "answer": "Time Commitment \/ Workload"
+      },
+      {
+        "comments": "The idea generation and drive for technical learning across the company was a great thing to be a part of. The hackathon and gen ai were often lunch time topics of conversation which was a great way of engaging and learning. In the lead up to the day and during the hack it was great to brainstorm with my team, come up with new ideas and be able to test them out in a very hands on way, as well as to have the support of mentors and others in getting to a good technical outcome.",
+        "answer": "Team Formation and Dynamics"
+      }
+    ],
+    "signature_instructions": "Classify user feedback from hackathon to one single theme",
+    "signature_prefix": "Themes:",
+    "extended_signature_instructions": "## PROPOSED INSTRUCTION:\n\n**Classify the user feedback provided below into a single theme related to hackathon experiences.** \n\n**Possible Themes:**\n\n* Technical Learning Resources\n* Clarity of Requirements\n* Time Commitment \/ Workload\n* Showcase \/ Presentation Format\n* Communication and Information Sharing\n* Team Formation and Dynamics\n* Relevance of Training Content\n* Application to Business \/ Use Cases\n* Accessibility and Inclusion\n* Incentives and Recognition\n* Post-Hackathon Follow-up\n* Support from Leadership \/ Mentors\n\n**Provide a brief but informative rationale explaining your chosen theme, using a chain of thought process that identifies key factors and details from the feedback to support your theme selection.**\n\n**Example:**\n\n**Feedback:** *Great initiative. It would be good if the teams got more coaching on presentation skills to keep them more engaging.* \n\n**Reasoning:** *The commenter highlights the importance of strong presentation skills for teams. This suggests that the feedback focuses on improving the format of how teams present their projects and work.* \n\n**Theme:** *Showcase \/ Presentation Format*",
+    "extended_signature_prefix": "Themes:"
+  }
+}

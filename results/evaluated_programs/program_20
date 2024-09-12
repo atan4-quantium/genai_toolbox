@@ -1,0 +1,33 @@
+{
+  "generate_answer": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "comments": "i enjoy participating in hackathons, but sometimes client need and vacations don't align",
+        "rationale": "Comments: i enjoy participating in hackathons, but sometimes client need and vacations don't align\n\nReasoning: Let's think step by step in order to **produce the themes**. We can see that the comment focuses on the difficulty of aligning personal commitments with the hackathon schedule.",
+        "themes": "**Time Commitment \/ Workload**"
+      },
+      {
+        "augmented": true,
+        "comments": "Really great process and very well organised. Only difficulty was juggling the vast amount of Hackathon training and prep with everyday work tasks. I don't think you could have done the hackathon effectively without a good amount of prep so a greater understanding of this extra workload would be appreciated",
+        "rationale": "Comments: Really great process and very well organised. Only difficulty was juggling the vast amount of Hackathon training and prep with everyday work tasks. I don't think you could have done the hackathon effectively without a good amount of prep so a greater understanding of this extra workload would be appreciated\n\nReasoning: Let's think step by step in order to **identify the main theme of the feedback**. The user highlights the **positive aspects** of the hackathon's organization and process. However, they express concern about the **time commitment and workload** required for preparation. This suggests that the **time commitment** was a significant challenge for them.",
+        "themes": "**Time Commitment \/ Workload**"
+      },
+      {
+        "comments": "I loved the hackathon and learned a lot! However I wasn't able to join much of the learning sessions before the actual hackathon, and I feel like these would have been very enriching. A lot of the live workshops\/mentor sessions clashed with busy periods around EOFY deadlines, or weren't as accessible from the UK timezone.",
+        "answer": "Accessibility and Inclusion"
+      },
+      {
+        "comments": "The hackathon was amazing however, I think we can would have been better if it was announced a bit earlier so that there is ample time for teams to prepare.",
+        "answer": "Time Commitment \/ Workload"
+      }
+    ],
+    "signature_instructions": "Classify user feedback from hackathon to one single theme",
+    "signature_prefix": "Themes:",
+    "extended_signature_instructions": "## PROPOSED INSTRUCTION:\n\nAnalyze the provided user feedback from a hackathon and identify the single, most relevant theme that the feedback highlights. Focus on determining the overarching message of the feedback and select one theme from the following list: \n\n*   Technical Learning Resources\n*   Clarity of Requirements\n*   Time Commitment \/ Workload\n*   Showcase \/ Presentation Format\n*   Communication and Information Sharing\n*   Team Formation and Dynamics\n*   Relevance of Training Content\n*   Application to Business \/ Use Cases\n*   Accessibility and Inclusion\n*   Incentives and Recognition\n*   Post-Hackathon Follow-up\n*   Support from Leadership \/ Mentors\n\nProvide a brief explanation of your reasoning in a format like this: \n\n\"Reasoning: Let's think step by step in order to **identify the theme**. The comment directly mentions [keyword\/concept from user feedback], indicating the feedback relates to **[selected theme]**.",
+    "extended_signature_prefix": "Themes:"
+  }
+}

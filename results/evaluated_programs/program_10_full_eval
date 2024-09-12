@@ -1,0 +1,33 @@
+{
+  "generate_answer": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "comments": "Learn plenty, get to work with a very different team and try some new things",
+        "rationale": "Comments: Learn plenty, get to work with a very different team and try some new things\n\nReasoning: Let's think step by step in order to **produce the themes**. We can see that the feedback focuses on the experience of working with a new team and trying new things. This suggests that the user found the hackathon to be a valuable opportunity for **Technical Learning Resources**.",
+        "themes": "**Technical Learning Resources**"
+      },
+      {
+        "augmented": true,
+        "comments": "It was a fun learning experience - very high energy\n\nDepending on the goals of the next hackathon, something to consider is to set aside a half day or similar for the next day so that we can do a stronger presentation.",
+        "rationale": "Comments: It was a fun learning experience - very high energy Depending on the goals of the next hackathon, something to consider is to set aside a half day or similar for the next day so that we can do a stronger presentation.\n\nReasoning: Let's think step by step in order to **produce the themes**. We see that the feedback focuses on the presentation aspect of the hackathon. The user mentions the need for more time to prepare a stronger presentation.",
+        "themes": "**Showcase \/ Presentation Format**"
+      },
+      {
+        "comments": "The mentor checkins were great - the ease of tooling environment set up was seamless. ",
+        "answer": "Support from Leadership \/ Mentors"
+      },
+      {
+        "comments": "The hackathon felt too broad which made it difficult to find a use case - I think if the hackathon was more focused that would make it more engaging ",
+        "answer": "Application to Business \/ Use Cases"
+      }
+    ],
+    "signature_instructions": "Classify user feedback from hackathon to one single theme",
+    "signature_prefix": "Themes:",
+    "extended_signature_instructions": "## PROPOSED INSTRUCTION:\n\nAnalyze the user feedback provided. Focus on identifying the primary concern or issue expressed by the user. Using step-by-step reasoning, articulate how you arrived at this understanding. Summarize your reasoning process in a clear and concise manner. After thoroughly  analysing the feedback, provide your categorization of the concern, selecting only one theme from the following list:\n\n**Themes:**\n\n* Technical Learning Resources\n* Clarity of Requirements\n* Time Commitment \/ Workload\n* Showcase \/ Presentation Format\n* Communication and Information Sharing\n* Team Formation and Dynamics\n* Relevance of Training Content\n* Application to Business \/ Use Cases\n* Accessibility and Inclusion\n* Incentives and Recognition\n* Post-Hackathon Follow-up\n* Support from Leadership \/ Mentors",
+    "extended_signature_prefix": "Themes:"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "generate_answer": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "comments": "Google training provided by Dan was so great!",
+        "answer": "Technical Learning Resources"
+      },
+      {
+        "comments": "The investment made by the company is off the charts - and it is funded by other projects (often on borrowed time). I suspect same could have been achieved in a cheaper, less time-intensive way. Nonetheless, hats off to the organisers - if one is going to do this, then well done.",
+        "answer": "Time Commitment \/ Workload"
+      },
+      {
+        "comments": "I learned a lot from both the sessions and the experience itself - the one point of feedback is there was quite a lot of resistance in starting this hackathon journey because it required going out to find your team.",
+        "answer": "Team Formation and Dynamics"
+      },
+      {
+        "comments": "It was a fun learning experience - very high energy\n\nDepending on the goals of the next hackathon, something to consider is to set aside a half day or similar for the next day so that we can do a stronger presentation.",
+        "answer": "Showcase \/ Presentation Format"
+      }
+    ],
+    "signature_instructions": "Classify user feedback from hackathon to one single theme",
+    "signature_prefix": "Themes:",
+    "extended_signature_instructions": "## Proposed Instruction:\n\nYou are a reasoning-driven classifier. \nPlease carefully analyze the user feedback given, and write down your reasoning in detail, using clear language and specific examples. \nYour reasoning should explain how this feedback relates to one of the available themes. \nRemember to take into account the context of the entire comment.\nYour goal is to select one theme that best encapsulates the essence of the feedback. \n\n**Themes:** \n* Technical Learning Resources\n* Clarity of Requirements \n* Time Commitment \/ Workload\n* Showcase \/ Presentation Format\n* Communication and Information Sharing\n* Team Formation and Dynamics\n* Relevance of Training Content\n* Application to Business \/ Use Cases\n* Accessibility and Inclusion\n* Incentives and Recognition\n* Post-Hackathon Follow-up\n* Support from Leadership \/ Mentors \n\n**User Feedback:** \n[Insert user feedback here] \n\n**(Reasoning:)** {This is where you write your detailed reasoning.}\n\n**(Theme:)** {Select one theme.}",
+    "extended_signature_prefix": "Themes:"
+  }
+}

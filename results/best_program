@@ -1,0 +1,37 @@
+{
+  "generate_answer": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "comments": "Good to have other Quantium people all taking about and working on and learning a new area that will be relevant to our work - defintiely felt like a fast way to learn practical skills. Only negative is the demand on working hours time.",
+        "rationale": "Comments: Good to have other Quantium people all taking about and working on and learning a new area that will be relevant to our work - defintiely felt like a fast way to learn practical skills. Only negative is the demand on working hours time.\n\nReasoning: Let's think step by step in order to **identify the dominant theme** in the feedback. The user highlights the **positive aspect** of learning practical skills relevant to their work. However, they also express a **concern about the time commitment**.  This suggests that the **time commitment** is the primary focus of the feedback.",
+        "themes": "**Time Commitment \/ Workload**"
+      },
+      {
+        "augmented": true,
+        "comments": "I feel like the team contributed too much time. The time commitment was not pre-signalled - usually hackathons only cost us a day, maybe 2.",
+        "rationale": "Comments: I feel like the team contributed too much time. The time commitment was not pre-signalled - usually hackathons only cost us a day, maybe 2.\n\nReasoning: Let's think step by step in order to **identify the theme**. We see the user is expressing concern about the **duration of the hackathon**. They mention that the time commitment was not clear beforehand and that they are used to shorter hackathons.",
+        "themes": "**Time Commitment \/ Workload**"
+      },
+      {
+        "augmented": true,
+        "comments": "Only pain points were around unclear requirements that had to be clarified (e.g. recordings, slides, etc.)",
+        "rationale": "Comments: Only pain points were around unclear requirements that had to be clarified (e.g. recordings, slides, etc.)\n\nReasoning: Let's think step by step in order to **identify the theme**. We see that the feedback focuses on the **lack of clarity in the instructions or expectations** for the hackathon. This directly relates to the **clarity of requirements**.",
+        "themes": "**Clarity of Requirements**"
+      },
+      {
+        "augmented": true,
+        "comments": "The standard of presentations were amazing and it was well executed ",
+        "rationale": "Comments: The standard of presentations were amazing and it was well executed\n\nReasoning: Let's think step by step in order to **identify the theme** of this feedback. The comment focuses on the quality and execution of the presentations. This directly relates to the **Showcase \/ Presentation Format**.",
+        "themes": "**Showcase \/ Presentation Format**"
+      }
+    ],
+    "signature_instructions": "Classify user feedback from hackathon to one single theme",
+    "signature_prefix": "Themes:",
+    "extended_signature_instructions": "## PROPOSED INSTRUCTION:\n\nAnalyze the provided hackathon user feedback and, based on it, provide a step-by-step explanation (Chain of Thought) for why the feedback aligns with a single theme among the following options: \n\n* Technical Learning Resources\n* Clarity of Requirements\n* Time Commitment \/ Workload\n* Showcase \/ Presentation Format\n* Communication and Information Sharing\n* Team Formation and Dynamics\n* Relevance of Training Content\n* Application to Business \/ Use Cases\n* Accessibility and Inclusion\n* Incentives and Recognition\n* Post-Hackathon Follow-up\n* Support from Leadership \/ Mentors \n \nThen, list the corresponding theme in your output. Remember to follow the provided structure:\n\n\"Reasoning: [explain your reasoning for choosing a specific theme] \nThemes: [selected theme based on your reasoning]",
+    "extended_signature_prefix": "Themes:"
+  }
+}
