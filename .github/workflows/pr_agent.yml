@@ -18,3 +18,6 @@ jobs:
         env:
           VERTEXAI.VERTEX_PROJECT: ${{ secrets.VERTEXAI_PROJECT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          config.model: "gemini-1.5-flash-001"
+          config.model_turbo: "gemini-1.5-flash-001"
+          config.fallback_models: "gemini-1.5-flash-001"
