@@ -20,5 +20,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           config.model: "vertex_ai/codechat-bison"
           config.model_turbo: "gemini-1.5-flash-001"
-          config.fallback_models: 
-            - "gemini-1.5-flash-001"
+          config.fallback_models: "gemini-1.5-flash-001"
