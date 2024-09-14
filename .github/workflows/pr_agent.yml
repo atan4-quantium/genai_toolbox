@@ -16,5 +16,9 @@ jobs:
         id: pragent
         uses: Codium-ai/pr-agent@main
         env:
-          VERTEXAI_PROJECT: ${{ secrets.VERTEXAI_PROJECT }}
+          VERTEXAI.VERTEX_PROJECT: "wiq-gen-ai-rd-dev"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          config.model: "vertex_ai/codechat-bison"
+          config.model_turbo: "gemini-1.5-flash-001"
+          config.fallback_models: "gemini-1.5-flash-001"
+          litellm.set_verbose: True
