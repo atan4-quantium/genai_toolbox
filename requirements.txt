@@ -1,5 +1,5 @@
 # pr-agent
 # installing pr-agent with the latest dependencies 
-git+https://github.com/atan4-quantium/pr-agent.git@vertex-test
+git+https://github.com/atan4-quantium/pr-agent.git@litellm-1.46
 nest_asyncio
 python-dotenv
